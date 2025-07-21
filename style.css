@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, black, #400808);        
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+}
+
+video {
+
+  padding: 5px; 
+  background: linear-gradient(45deg, #36364A, #080840, #400808);
+  border-radius: 20px;
+
+  box-shadow: 0 0 30px #320000,
+              0 0 60px #444444;
+
+  animation: glow 3s infinite alternate;
+}
+h1{
+  margin: 40px;
+  padding: 40px;
+}
